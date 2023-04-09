@@ -1,2 +1,3 @@
-google-cloud-firestore
+
 streamlit-option-menu
+scikit-learn
