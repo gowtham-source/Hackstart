@@ -31,7 +31,7 @@ The first problem statement consists of two parts:
     - Maintain a digital snapshot of the Startup Database
     - Track the progress of Startup TN startups''')
     st.write("## Solution")
-    df = pd.read_csv(".\DPIIT Startups.csv", encoding='iso-8859-1')
+    df = pd.read_csv("DPIIT Startups.csv", encoding='iso-8859-1')
     st.write("#### Part A")
     if st.button("view data"):
         st.write(df)
